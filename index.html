@@ -1,0 +1,55 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alien Name Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Alien Name Generator</h1>
+    <p class="tagline">Find out your intergalactic identity!</p>
+
+    <div id="quiz">
+      <div class="question">
+        <p>1. What’s your favorite time of day?</p>
+        <label><input type="radio" name="q1" value="a"> Midnight</label><br>
+        <label><input type="radio" name="q1" value="b"> Dawn</label><br>
+        <label><input type="radio" name="q1" value="c"> Noon</label>
+      </div>
+
+      <div class="question">
+        <p>2. Choose a space power:</p>
+        <label><input type="radio" name="q2" value="a"> Telepathy</label><br>
+        <label><input type="radio" name="q2" value="b"> Invisibility</label><br>
+        <label><input type="radio" name="q2" value="c"> Shape-shifting</label>
+      </div>
+
+      <div class="question">
+        <p>3. Pick your home planet:</p>
+        <label><input type="radio" name="q3" value="a"> Ice World</label><br>
+        <label><input type="radio" name="q3" value="b"> Lava Planet</label><br>
+        <label><input type="radio" name="q3" value="c"> Gas Giant</label>
+      </div>
+
+      <button class="generate-btn" onclick="generateName()">Generate My Alien Name</button>
+    </div>
+
+    <div class="result" id="result"></div>
+
+    <div class="ad-box">
+      <!-- Ad placeholder -->
+      <p>[Ad placeholder — your ad will go here]</p>
+    </div>
+
+    <footer>
+      &copy; 2025 newquizmaster.com
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

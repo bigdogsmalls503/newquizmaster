@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,255,255,0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #00ffff;
+  margin-bottom: 15px;
+  text-shadow: 0 0 8px #00ffff;
+}
+
+p.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: #cccccc;
+}
+
+button.generate-btn {
+  background-color: #00ffff;
+  color: #000;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #00ffff;
+}
+
+button.generate-btn:hover {
+  background-color: #00cccc;
+  box-shadow: 0 0 20px #00ffff;
+}
+
+.result {
+  font-size: 2rem;
+  margin-top: 30px;
+  color: #7efff5;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.ad-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px dashed #00ffff;
+  padding: 15px;
+  margin: 30px 0;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  button.generate-btn {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .result {
+    font-size: 1.6rem;
+  }
+}
